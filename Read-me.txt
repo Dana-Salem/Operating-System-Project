@@ -1,0 +1,66 @@
+This folder contains C++ implementations of five common CPU scheduling algorithms:
+
+1- First-Come, First-Served (FCFS)
+
+2- Shortest Job First (SJF)
+
+3- Shortest Remaining Time First (SRTF)
+
+4- Priority Scheduling
+
+5- Round Robin (RR)
+
+Requirements:
+
+1- C++ compiler (g++ recommended)
+
+2- Terminal or command prompt
+
+Input Instructions:
+
+###For each program:###
+
+1- Enter the number of processes when prompted
+
+2- For each process, provide the required information:
+
+a) FCFS/SJF/SRTF: Arrival time and burst time
+
+b) Priority Scheduling: Arrival time, burst time, and priority
+
+c) Round Robin: Arrival time and burst time (PLUS time quantum when prompted)
+
+
+Output Explanation:
+
+Each program will display:
+
+A table showing process details including:
+
+1) Process ID
+
+2) Arrival Time (AT)
+
+3) Burst Time (BT)
+
+4) Waiting Time (WT)
+
+5) Turnaround Time (TAT)
+
+6) (Priority for Priority Scheduling)
+
+7) (Completion Time (CT) for FCFS)
+
+8) Average Waiting Time
+
+9) Average Turnaround Time
+
+Important Notes:
+
+1- All programs assume processes arrive at time 0 or later
+
+2- For Priority Scheduling, lower numbers indicate higher priority
+
+3- The programs handle integer time values only
+
+4- For SJF and SRTF, if two processes have the same burst time, the one that arrived first will be selected
